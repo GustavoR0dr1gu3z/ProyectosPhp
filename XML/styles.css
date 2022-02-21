@@ -1,0 +1,40 @@
+html,body{
+    background: #e3e7f1 ;
+}
+
+
+section{
+    background: #c3f0ca;
+    margin-top: .5rem;
+    border-radius: 25px;
+    font-family: Arial;
+    padding: 0.001rem 1rem;
+    font-size: smaller;
+}
+
+.botonEnviar{
+    margin: .5rem ;
+    margin-left:50rem ;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+    background: #445c3c ;
+    
+}
+input{
+    background: #e2decf;
+    width: 8%;
+    margin-top: .1rem;
+    margin-bottom: 1rem;
+}
+
+.b{
+    width: 5%;  
+    margin-bottom: 1px; 
+    
+}
+
+.f{
+    width: 15%;
+}

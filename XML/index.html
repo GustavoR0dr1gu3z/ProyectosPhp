@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="pdf.php">
+</head>
+<body>
+    <div class = "cuadro">
+        <form name="altaPaciente" action="altaOk.php" method="POST">
+            <section class = "medico">
+                
+                    <h3>DATOS MEDICO</h3> 
+                    CEDULA MEDICO: <input type="text" name="Cedula_M">
+                    CEDULA ESPECIALIDAD: <input type="text" name="Cedula_E"> <br> <br>
+                    NOMBRE: <input type="text" name="Nombre_E">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  APELLIDOS: <input type="text" name="Apellidos_E"> 
+                    NOMBRE ESPECIALIDAD: <input type="text" name="Especialidad"> <br> <br>
+                    DIRECCION: <input type="text" name="Direccion_E">
+                    &nbsp;  TELEFONO: <input type="number" name="Telefono_E">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; EMAIL: <input type="email" name="Email_E"> <br> <br>                                  
+
+            </section>
+
+            <section class="cliente">
+                    <h3>DATOS CLIENTE</h3> 
+                    RFC: <input type="text" name="RFC">
+                    RAZON SOCIAL: <input type="text" name="Razon">
+                    TIPO PERSONA: <input type="text" name="Tipo">
+                    DIRECCION FISCAL: <input type="text" name="DireccionF">
+                    CALLE: <input type="text" name="Calle"> <br>
+                    NUM EXTERIOR: <input type="number" name="Exte">
+                    NUM INTERIOR: <input type="number" name="Inte">
+                    COMUNIDAD: <input type="text" name="Comunidad">
+                    ESTADO: <input type="text" name="Estado">
+                    CODIGO POSTAL: <input type="number" name="CP"><br>
+                    PAIS: <input type="text" name="Pais">
+                   
+
+            </section>
+
+            <section class ="paciente">
+               
+                <H3>DATOS PACIENTE</H3>
+                CURP: <input type="text" name ="CURP">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; NOMBRE: <input type="text" name="Nombre">
+                APELLIDOS: <input type="text" name="Apellidos"> FECHA: <input class="f" type="date" name="Fecha"> <br> <br>
+                SEXO: <input type="text" name="Sexo">
+                &nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   EDAD: <input  class ="b" type="number" name="Edad">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  PESO: <input type="number" name="Peso"> <br> <br>
+                DIRECCION: <input type="text" name="Direccion">
+                &nbsp;  EMAIL: <input type="email" name="Email"> <a href="enviar.php">Enviar XML a Correo    </a>
+                TELEFONO: <input type="number" name="Telefono"><br> <br>
+             <br> <br>
+
+            </section>
+
+            <section class = "servicio">
+                
+                <h3>SERVICIO</h3>
+                CIRUJIA: <input class ="b" type="text" name="Cirujia">(Y / N)&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                DIAS DE USO HABITACION: <input type="number" name="Habitacione"> COSTO: <input type="number" name="Costoo"><br>
+                CURACION: <input class ="b" type="text" name="Curacion">(Y / N)<br> <br>
+                TRATAMIENTO: <input class ="b" type="text" name="Tratamiento">(Y / N)<br> <br>            
+                PROCEDIMIENTO: <input class ="b" type="text" name="Procedimiento">(Y / N)<br> <br>
+                COSTO: <input type="number" name="Costo">                
+                <input class="botonEnviar" type="submit" name="boton">
+                <a href="pdf.php">XML</a>
+                <a href="Plantilla.php">XD</a>
+                <br> <br> 
+
+            </section>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
