@@ -1,0 +1,133 @@
+﻿.ui-widget {
+    padding: 10px;
+    font-family: 'Source Sans Pro','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.tr_danger {
+    background-color: rgba(221,75,57,.8) !important;
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+
+@media(max-width:991px) {
+    /*#MantenimientosDiarioSemanal {
+        overflow-y: scroll;
+        overflow-x: no-display;
+    }*/
+
+    .div-container-table {
+        height: 100% !important;
+    }
+
+    .div-table-responsive {
+        height: 30vh !important;
+        overflow-y: scroll;
+        overflow-x: no-display;
+    }
+
+    /*.col-md-4 {
+        width: 100% !important;
+    }
+
+    .form-horizontal .control-label {
+        text-align: left !important;
+    }
+
+    .sidebar-collapse .content-wrapper, .sidebar-collapse .main-footer{
+        margin-left: 0;
+    }*/
+}
+
+
+@media (max-width:375px) {
+    .div-container-table, .div-container-data, #MantenimientosDiarioSemanal {
+        padding: 0px !important;
+        margin-top: 10px;
+    }
+
+    .div-container-buttons {
+        margin-bottom: 10px !important;
+    }
+}
+
+@media (min-width:992px) and (max-width:1024px) {
+    .div-container-table, .div-container-data, #MantenimientosDiarioSemanal {
+        padding: 0px !important;
+        margin-top: 10px;
+    }
+
+    .col-md-4, .col-md-8 {
+        width: 100%;
+    }
+
+    .col-md-3 {
+        width: 50% !important;
+    }
+
+    .form-horizontal .control-label {
+        text-align: left !important;
+        /*width:50px !important;*/
+    }
+
+    .div-container-table {
+        height: 100% !important;
+    }
+
+    .div-container-buttons {
+        margin-bottom: 10px !important;
+    }
+
+    .div-table-responsive {
+        height: 30vh !important;
+        overflow-y: scroll;
+        overflow-x: no-display;
+    }
+}
+
+@media (min-width:1025px) and (max-width:1366px) {
+    /*.div-container-table, .div-container-data, #MantenimientosDiarioSemanal {
+        padding: 0px !important;
+        margin-top:10px;
+    }*/
+    .col-md-4, .col-md-8 {
+        width: 40%;
+    }
+
+    .col-md-8 {
+        width: 60%;
+    }
+}
+
+/*@media(min-width:992px) and (max-width:1368px) {
+    .col-md-4 {
+        width: 80% !important;
+    }
+    .form-horizontal .control-label {
+        text-align: left !important;
+    }
+}
+
+@media(min-width:1601px) {
+    .col-md-4 {
+        width: 40% !important;
+    }
+    .col-md-8 {
+        width: 60% !important;
+    }
+    .form-horizontal .control-label {
+        text-align: left !important;
+    }
+}*/
+
+@media (max-width:375px) {
+    .btn-success {
+        float: right;
+    }
+
+    .btn-default {
+        float: left;
+    }
+}
+
+
